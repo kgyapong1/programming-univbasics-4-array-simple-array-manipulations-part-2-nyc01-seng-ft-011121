@@ -1,8 +1,5 @@
-def using_concat do
-  
-my_friends = [ "Lillian" , "Asi"]
-more_friends = [ "Biz", " Fred"]
-
-all_my_friends = using.concat(my_friends, more_friends)
-
-end
+describe "#using_concat" do 
+  before(:each) do 
+    @my_favorite_things = ["raindrops on roses", "whiskers on kittens"]
+    more_favs = ["mario kart", "flatiron school"]
+    @all_my_favs = using_concat(@my_favorite_things, more_favs)
