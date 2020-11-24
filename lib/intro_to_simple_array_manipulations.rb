@@ -9,3 +9,4 @@ end
 def using_unqi(array)
   array.uniq
 end
+
